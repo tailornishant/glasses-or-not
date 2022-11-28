@@ -28,3 +28,14 @@ Some examples of activation function are Sigmoid, ReLU, Leaky ReLU, Hyperbolic T
 - Last, a CNN has fully connected layers. In a convolutional layer, the nodes only receive or share information from part of the layer before it. In a fully connected layer, every node receives the input from every node in the previous layer.
 
 - Fully connected layers are like those you would find in the hidden layers of an artificial neural network. This is where all the features extracted by the convolutional neural network get combined. This means that the computer sees the whole image — which can help with generating an accurate output.
+
+
+### EPOCH
+- One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE.
+So, it is related with gradient descent more the number of epochs more it will pass through gradient descent.
+### BATCH SIZE
+- As we know, we can’t pass the entire dataset into the neural net at once. So, you divide dataset into Number of Batches or sets or parts.
+- Batch Size is Total number of training examples present in a single batch.
+
+### BATCH NORMALIZATION
+- it is a Normalization method used after activation function to normalize the data for faster and better result.
